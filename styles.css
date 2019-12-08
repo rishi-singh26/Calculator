@@ -1,23 +1,39 @@
+body {
+  background-color: rgb(41, 35, 59);
+}
+
+.jumbotron {
+  background-color: rgb(41, 35, 59);
+  color: floralwhite;
+  max-height: 160px;
+}
+
 .blocks {
-  background-color: rgb(99, 38, 156);
-  max-width: 250px;
+  background-color: rgb(66, 25, 104);
+  max-width: 330px;
   border-radius: 10px;
   color: floralwhite;
 }
-
-button {
-  background-color: rgb(65, 25, 102);
-  border-radius: 50px;
+/* class m is added to every button inside the calculator to give thhem their width */
+.btn {
+  background-color: rgb(43, 17, 68);
   color: antiquewhite;
+  min-width: 49px;
+}
+
+h1,
+h4 {
+  margin-left: 100px;
 }
 
 .head {
   font-size: 30px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .clear {
   background-color: rgb(240, 53, 53);
-  margin-left: 18px;
+  /* margin-left: 18px; */
 }
 
 .enter {
@@ -27,13 +43,15 @@ button {
 #displayBox {
   background-color: rgb(108, 177, 39);
   border-radius: 5px;
-  max-width: 183px;
-  min-height: 70px;
-  border: solid 2px rgb(252, 252, 252);
+  max-width: 322px;
+  min-height: 76px;
+  border: solid 2px rgb(82, 13, 146);
 }
 
 #screen {
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+  margin: 20px 10px;
 }

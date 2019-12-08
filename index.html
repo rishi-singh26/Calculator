@@ -9,6 +9,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- google fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -27,191 +33,122 @@
   </head>
 
   <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Calacultor</h1>
+        <h4>
+          By Rishi Singh
+        </h4>
+      </div>
+    </header>
     <div class="container">
-        <br><br>
-
       <div class="row">
         <div class="col-11 p-5 ml-auto mr-auto blocks">
-          <p class="head">CalculatorX</p>
+          <p class="head">Calculator X</p>
 
           <div class="row" id="displayBox">
-              <p id="screen"></p>
-              <!-- <input
+            <p id="screen"></p>
+            <!-- <input
               type="text"
               class="form-control"
               id="screen"
               placeholder="Enter Decimal Data"
             />                     -->
           </div>
-          <br>
+          <br />
           <div class="row">
-                <button
-                  type="submit"
-                  class="btn"
-                  onclick=" input('(')"
-                >
-                (
-                </button>
-                
-                <button
-                  type="submit"
-                  class="offset-1 btn "
-                  onclick="input(')')"
-                >
-                )
-                </button>
-                
-                <button
-                  type="submit"
-                  class="offset-1 btn "
-                  onclick=" backSpace()"
-                >
-                   <
-                </button>
-                <button
-                  type="submit"
-                  class="btn offset-1 clear"
-                  onclick="del()"
-                >
-                C
-                </button>
-              </div>
-              <br>
-        <div class="row">
-          <button
-            type="submit"
-            class="btn"
-            onclick="input('7')"
-          >
-            7
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('8')"
-          >
-            8
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('9')"
-          >
-            9
-          </button>
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('*')"
-          >
-            *
-          </button>
-        </div>
-        <br>
-        <div class="row">
-          <button
-            type="submit"
-            class="btn "
-            onclick=" input('4')"
-          >
-            4
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('5')"
-          >
-            5
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('6')"
-          >
-            6
-          </button>
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('-')"
-          >
-            -
-          </button>
-        </div>
-        <br>
-        <div class="row">
-          <button
-            type="submit"
-            class="btn "
-            onclick=" input('1')"
-          >
-            1
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('2')"
-          >
-            2
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('3')"
-          >
-            3
-          </button>
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('/')"
-          >
-          /
-          </button>
-        </div>
-        <br>
-        <div class="row">
-          <button
-            type="submit"
-            class="btn "
-            onclick=" input('+')"
-          >
-            +
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('0')"
-          >
-            0
-          </button>
-          
-          <button
-            type="submit"
-            class="offset-1 btn "
-            onclick=" input('.')"
-          >
-            .
-          </button>
-          <button
-            type="submit"
-            class="offset-1 btn enter"
-            onclick=" result()"
-          >
-            =
-          </button>
-        </div>
+            <button type="submit" class="btn" onclick=" input('(')">
+              (
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick="input(')')">
+              )
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick=" backSpace()">
+              <
+            </button>
+            <button type="submit" class="btn offset-1 clear" onclick="del()">
+              C
+            </button>
+          </div>
+          <br />
+          <div class="row">
+            <button type="submit" class="btn" onclick="input('7')">
+              7
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick=" input('8')">
+              8
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick=" input('9')">
+              9
+            </button>
+            <button type="submit" class="offset-1 btn" onclick=" input('*')">
+              *
+            </button>
+          </div>
+          <br />
+          <div class="row">
+            <button type="submit" class="btn" onclick=" input('4')">
+              4
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick=" input('5')">
+              5
+            </button>
+
+            <button type="submit" class="offset-1 btn" onclick=" input('6')">
+              6
+            </button>
+            <button type="submit" class="offset-1 btn" onclick=" input('-')">
+              -
+            </button>
+          </div>
+          <br />
+          <div class="row">
+            <button type="submit" class=" btn" onclick=" input('1')">
+              1
+            </button>
+
+            <button type="submit" class="offset-1  btn" onclick=" input('2')">
+              2
+            </button>
+
+            <button type="submit" class="offset-1  btn" onclick=" input('3')">
+              3
+            </button>
+            <button type="submit" class="offset-1  btn" onclick=" input('/')">
+              /
+            </button>
+          </div>
+          <br />
+          <div class="row">
+            <button type="submit" class=" btn" onclick=" input('+')">
+              +
+            </button>
+
+            <button type="submit" class="offset-1  btn" onclick=" input('0')">
+              0
+            </button>
+
+            <button type="submit" class="offset-1  btn" onclick=" input('.')">
+              .
+            </button>
+            <button
+              type="submit"
+              class="offset-1 btn enter m"
+              onclick=" result()"
+            >
+              =
+            </button>
+          </div>
         </div>
       </div>
+    </div>
     <footer class="footer">
-      <div class="container">
+      <div class="container foot">
         <div class="row">
           <div class="col-11 col-md-7 col-lg-9 p-5 ml-auto mr-auto">
             <div class="text-center">
