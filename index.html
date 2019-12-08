@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kanit|Muli&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+        <br><br>
+
+      <div class="row">
+        <div class="col-11 p-5 ml-auto mr-auto blocks">
+          <p class="head">CalculatorX</p>
+
+          <div class="row" id="displayBox">
+              <p id="screen"></p>
+              <!-- <input
+              type="text"
+              class="form-control"
+              id="screen"
+              placeholder="Enter Decimal Data"
+            />                     -->
+          </div>
+          <br>
+          <div class="row">
+                <button
+                  type="submit"
+                  class="btn"
+                  onclick=" input('(')"
+                >
+                (
+                </button>
+                
+                <button
+                  type="submit"
+                  class="offset-1 btn "
+                  onclick="input(')')"
+                >
+                )
+                </button>
+                
+                <button
+                  type="submit"
+                  class="offset-1 btn "
+                  onclick=" backSpace()"
+                >
+                   <
+                </button>
+                <button
+                  type="submit"
+                  class="btn offset-1 clear"
+                  onclick="del()"
+                >
+                C
+                </button>
+              </div>
+              <br>
+        <div class="row">
+          <button
+            type="submit"
+            class="btn"
+            onclick="input('7')"
+          >
+            7
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('8')"
+          >
+            8
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('9')"
+          >
+            9
+          </button>
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('*')"
+          >
+            *
+          </button>
+        </div>
+        <br>
+        <div class="row">
+          <button
+            type="submit"
+            class="btn "
+            onclick=" input('4')"
+          >
+            4
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('5')"
+          >
+            5
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('6')"
+          >
+            6
+          </button>
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('-')"
+          >
+            -
+          </button>
+        </div>
+        <br>
+        <div class="row">
+          <button
+            type="submit"
+            class="btn "
+            onclick=" input('1')"
+          >
+            1
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('2')"
+          >
+            2
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('3')"
+          >
+            3
+          </button>
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('/')"
+          >
+          /
+          </button>
+        </div>
+        <br>
+        <div class="row">
+          <button
+            type="submit"
+            class="btn "
+            onclick=" input('+')"
+          >
+            +
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('0')"
+          >
+            0
+          </button>
+          
+          <button
+            type="submit"
+            class="offset-1 btn "
+            onclick=" input('.')"
+          >
+            .
+          </button>
+          <button
+            type="submit"
+            class="offset-1 btn enter"
+            onclick=" result()"
+          >
+            =
+          </button>
+        </div>
+        </div>
+      </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-11 col-md-7 col-lg-9 p-5 ml-auto mr-auto">
+            <div class="text-center">
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="https://www.linkedin.com/in/rishi-singh-b2226415b/"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-github"
+                href="https://github.com/rishi-singh26"
+                ><i class="fa fa-github fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon"
+                href="mailto:rishi.singh24@yahoo.in"
+                ><i class="fa fa-envelope-o fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.blocks {
+  background-color: rgb(99, 38, 156);
+  max-width: 250px;
+  border-radius: 10px;
+  color: floralwhite;
+}
+
+button {
+  background-color: rgb(65, 25, 102);
+  border-radius: 50px;
+  color: antiquewhite;
+}
+
+.head {
+  font-size: 30px;
+}
+
+.clear {
+  background-color: rgb(240, 53, 53);
+  margin-left: 18px;
+}
+
+.enter {
+  background-color: rgb(51, 204, 46);
+}
+
+#displayBox {
+  background-color: rgb(108, 177, 39);
+  border-radius: 5px;
+  max-width: 183px;
+  min-height: 70px;
+  border: solid 2px rgb(252, 252, 252);
+}
+
+#screen {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
