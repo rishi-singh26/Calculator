@@ -21,9 +21,11 @@ body {
   min-width: 49px;
 }
 
-h1,
+h1 {
+  margin-left: 65px;
+}
 h4 {
-  margin-left: 100px;
+  margin-left: 88px;
 }
 
 .head {
